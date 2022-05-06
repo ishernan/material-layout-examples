@@ -11,7 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { LayoutComponent } from './layout/layout.component';
 import { MegaMenuComponent } from './mega-menu/mega-menu.component';
 import { MegaMenuTwoComponent } from './mega-menu-two/mega-menu-two.component';
-import { FormGroup, ReactiveFormsModule } from '@angular/forms';
+// import { FormGroup, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,8 +30,8 @@ import { FormGroup, ReactiveFormsModule } from '@angular/forms';
     MatFormFieldModule,
     MatMenuModule,
     MatButtonModule,
-    FormGroup,
-    ReactiveFormsModule
+    // FormGroup,
+    // ReactiveFormsModule
   ],
 
   // exports: [
