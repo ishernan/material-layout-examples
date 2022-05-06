@@ -37,3 +37,23 @@ $ng-material-theme: mat.define-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body { 
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}
+
+// .basic-container {
+//   padding: 30px;
+// }
+
+// .version-info {
+//   font-size: 8pt;
+//   float: right;
+// }
+// .mat-menu-panel {
+//   min-width: 90vw !important;
+//   max-width: 95vw !important;
+//   margin-left: -8px;
+//   margin-top: 24px;
+// }

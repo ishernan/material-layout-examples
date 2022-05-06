@@ -8,13 +8,17 @@ import { CoreModule, FlexLayoutModule } from '@angular/flex-layout';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
-//import { LoginComponent } from './login/login.component';
+import { LayoutComponent } from './layout/layout.component';
+import { MegaMenuComponent } from './mega-menu/mega-menu.component';
+import { MegaMenuTwoComponent } from './mega-menu-two/mega-menu-two.component';
 import { FormGroup, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-     AppComponent,
-    // LoginComponent
+    AppComponent,
+    LayoutComponent,
+    MegaMenuComponent,
+    MegaMenuTwoComponent
   ],
   
   imports: [
@@ -29,6 +33,12 @@ import { FormGroup, ReactiveFormsModule } from '@angular/forms';
     FormGroup,
     ReactiveFormsModule
   ],
+
+  // exports: [
+  //   LayoutComponent,
+  //   MegaMenuComponent,
+  //   MegaMenuTwoComponent
+  // ],
   providers: [],
   bootstrap: [AppComponent]
 })
