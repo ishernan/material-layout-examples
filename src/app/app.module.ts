@@ -8,10 +8,16 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
+import { LayoutComponent } from './layout/layout.component';
+import { MegaMenuComponent } from './mega-menu/mega-menu.component';
+import { MegaMenuTwoComponent } from './mega-menu-two/mega-menu-two.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LayoutComponent,
+    MegaMenuComponent,
+    MegaMenuTwoComponent
   ],
   imports: [
     BrowserModule,

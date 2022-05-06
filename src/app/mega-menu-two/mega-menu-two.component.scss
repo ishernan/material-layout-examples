@@ -1,0 +1,36 @@
+.mega-menu .mat-menu-content {
+  min-width: 112px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  max-height: calc(100vh - 48px);
+  outline: 0;
+  background: none;
+
+
+  :hover {
+    background: none;
+    color: white;
+  }
+}
+
+.mat-menu-item:hover {
+  background: #338acf !important;
+  color: white;
+}
+
+
+::ng-deep .mat-menu-panel {
+  min-width: 80vw !important;
+  max-width: 95vw !important;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 18px;
+}
+
+.container {
+  margin: 2%;
+}
+
+.p-1 {
+  padding: 10px;
+}
